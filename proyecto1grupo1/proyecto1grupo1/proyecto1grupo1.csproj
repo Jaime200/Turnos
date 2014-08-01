@@ -50,34 +50,34 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="pantallaTurnos.cs">
+    <Compile Include="wfPantallaTurnos.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="pantallaTurnos.Designer.cs">
-      <DependentUpon>pantallaTurnos.cs</DependentUpon>
+    <Compile Include="wfPantallaTurnos.Designer.cs">
+      <DependentUpon>wfPantallaTurnos.cs</DependentUpon>
     </Compile>
-    <Compile Include="Turnos.cs">
+    <Compile Include="wfMenuTurnos.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Turnos.Designer.cs">
-      <DependentUpon>Turnos.cs</DependentUpon>
+    <Compile Include="wfMenuTurnos.Designer.cs">
+      <DependentUpon>wfMenuTurnos.cs</DependentUpon>
     </Compile>
-    <Compile Include="inicioSesion.cs">
+    <Compile Include="wfInicioSesion.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="inicioSesion.Designer.cs">
-      <DependentUpon>inicioSesion.cs</DependentUpon>
+    <Compile Include="wfInicioSesion.Designer.cs">
+      <DependentUpon>wfInicioSesion.cs</DependentUpon>
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <EmbeddedResource Include="pantallaTurnos.resx">
-      <DependentUpon>pantallaTurnos.cs</DependentUpon>
+    <EmbeddedResource Include="wfPantallaTurnos.resx">
+      <DependentUpon>wfPantallaTurnos.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Turnos.resx">
-      <DependentUpon>Turnos.cs</DependentUpon>
+    <EmbeddedResource Include="wfMenuTurnos.resx">
+      <DependentUpon>wfMenuTurnos.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="inicioSesion.resx">
-      <DependentUpon>inicioSesion.cs</DependentUpon>
+    <EmbeddedResource Include="wfInicioSesion.resx">
+      <DependentUpon>wfInicioSesion.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
@@ -158,6 +158,9 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\Gift Claro espera.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icoClaroP.bmp" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

@@ -173,6 +173,16 @@ namespace proyecto1grupo1.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap icoClaroP {
+            get {
+                object obj = ResourceManager.GetObject("icoClaroP", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap IMAGEN_CLARO_TURNO {
             get {
                 object obj = ResourceManager.GetObject("IMAGEN_CLARO_TURNO", resourceCulture);
